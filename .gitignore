@@ -1,0 +1,10 @@
+/DerivedDataCache
+/Intermediate
+/Saved
+/Binaries
+/Build
+UE4_C9.uproject
+*.VC.opendb
+*.VC.db
+.vs
+*.sln

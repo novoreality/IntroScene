@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{B2569A99-4145-3895-D1F9-9CA6C7EC6649}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Robot_Sync",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OptitrackOculusRift",
+			"Enabled": true
+		},
+		{
+			"Name": "OculusRift",
+			"Enabled": false
+		},
+		{
+			"Name": "OptitrackNatnet",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false
+		}
+	]
+}
